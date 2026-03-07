@@ -1,0 +1,21 @@
+* To-Do List Draft Architecture 1.0
+** Task_manager:
+*** Controls all task functionality 
+**** Add_task (MVP)
+**** Delete_task (MVP)
+**** Add_reminder
+**** Update_task
+**** Recurring_Task
+**** Mark_complete (mvp)
+** Database_manager (think of better name?):
+*** Supports all the DB functionality
+**** Save_json (MVP)
+**** Load_json(MVP)
+**** Marshall/Demarshall (think of better name, + find out how to do in C++)
+**** Save_to_db
+**** Load_from_db
+** UI_manager:
+*** Supports all user interface functionality
+*** Don't know what's needed yet as I've not looked into QT yet.
+** To_do_List:
+*** Main program entry. This one will be the one with all the #includes and programming logic, UI stuff, etc.
