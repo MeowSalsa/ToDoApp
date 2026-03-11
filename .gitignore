@@ -1,2 +1,22 @@
 *.org
 compile_flags.txt
+
+# build output
+build/
+
+# cmake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# compiled files
+*.o
+*.out
+*.exe
+
+# clangd / tooling
+compile_commands.json
+
+# clangd cache
+.cache/

@@ -13,7 +13,8 @@ class ToDoApp{
 	std::string promptForTaskTitle(){
 		std::string taskTitle;
 		std::cout << "Enter the task title: ";
-		std::cin >> taskTitle;
+		std::cin.ignore();		
+		getline(std::cin,taskTitle);
 		return taskTitle;
 	}
 	void showTasks(){
@@ -29,7 +30,7 @@ class ToDoApp{
 	int  promptForTaskID(){
 		int taskID;
 		showTasks();
-		std::cout << "Enter the ID for completed task: ";
+		std::cout << "Enter the ID for the desired task: ";
 		std::cin >> taskID;
 		return taskID;
 	}
