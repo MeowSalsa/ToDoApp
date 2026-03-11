@@ -1,10 +1,12 @@
 #pragma once
 
 #include <vector>
+#include <string>
+
 #include "Task.hpp"
 class TaskList{
 	std::vector<Task> taskVector;
-	int nextTaskID;
+	int nextTaskID=0;
  public:
 	bool addTask(std::string newTaskTitle);
 	bool deleteTask(int taskID);

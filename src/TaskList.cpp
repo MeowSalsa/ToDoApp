@@ -4,8 +4,6 @@
 #include "Task.hpp"
 #include "TaskList.hpp"
 
-std::vector<Task> taskVector;
-int nextTaskID = 0;
 bool TaskList::addTask(std::string newTask) {
 	Task task;
 	task.title = newTask;

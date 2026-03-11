@@ -1,5 +1,0 @@
-/home/Meowsauce/Desktop/Projects/ToDoApp/build/CMakeFiles/edit_cache.dir
-/home/Meowsauce/Desktop/Projects/ToDoApp/build/CMakeFiles/rebuild_cache.dir
-/home/Meowsauce/Desktop/Projects/ToDoApp/build/src/CMakeFiles/ToDoApp.dir
-/home/Meowsauce/Desktop/Projects/ToDoApp/build/src/CMakeFiles/edit_cache.dir
-/home/Meowsauce/Desktop/Projects/ToDoApp/build/src/CMakeFiles/rebuild_cache.dir
