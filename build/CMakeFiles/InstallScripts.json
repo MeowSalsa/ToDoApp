@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/Meowsauce/Desktop/Projects/ToDoApp/build/cmake_install.cmake",
-		"/home/Meowsauce/Desktop/Projects/ToDoApp/build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
