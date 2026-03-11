@@ -1,5 +1,3 @@
-#include <cstddef>
-#include <exception>
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -120,7 +118,6 @@ void runApp(){
 };
 
 int main(){
-	std::cout << "----Starting ToDo List----" << std::endl;
 	ToDoApp app;
 	app.runApp();
 	return 0;
