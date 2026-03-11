@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ToDoApp.dir/link.d CMakeFiles/ToDoApp.dir/ToDoApp.cpp.o CMakeFiles/ToDoApp.dir/TaskList.cpp.o -o ToDoApp
